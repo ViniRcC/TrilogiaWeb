@@ -1,0 +1,29 @@
+@import url(../cssfilme/background.css);
+@import url(../cssfilme/header.css);
+@import url(../cssfilme/app.css);
+@import url(../cssfilme/main.css);
+@import url(../cssfilme/fade.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  animation: fadein 1.5s;
+}
+body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+  }
+  :root {
+    --text: #ffffff;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }

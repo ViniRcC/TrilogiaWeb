@@ -1,0 +1,40 @@
+main{
+    flex: 1;
+    width: 100%;
+    max-width: 1050px;
+    height: 100vh;
+   
+}
+.main_info{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.main_info img{
+    margin: 10px 0px;
+    align-items:center;
+    
+}
+.main_info button{
+    background-color: red;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius:30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.3;
+    transition: all 0.4s;
+}
+.main_info button:hover{
+    opacity: 1;
+    font-size: 16px;
+
+}
+.main_info p{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 700px;
+}
